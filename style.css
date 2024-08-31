@@ -1,0 +1,97 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    display: flexbox;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.box1{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.box2{
+  background-color: #f5f4f8;
+  height: 250px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main-table{
+  height: 300px;
+  width: 80%;
+
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.color1{
+  background-color: #d2e8f7;
+}
+
+.color2{
+  background-color: #77bef2;
+}
+
+.box3{
+  height: auto;
+  width: auto;
+  margin-top: 100px;
+  background-color: #a5c7e3;
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container{
+  background-color: #f5f7fa;
+  height: 70%;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0;
+  padding: 20px;
+
+}
+
+h2{
+  font-size: 2rem;
+}
+
+.colspan{
+  background-color: #77bef2;
+  height: 100px;
+  width: 300px;
+  font-weight: bold;
+}
+
+.rowspan{
+  background-color: #77bef2;
+  height: 100px;
+  width: 300px;
+  font-weight: bold;
+}
+
+span{
+  color: red;
+}
+
+.pb{
+  background-color: yellow;
+}

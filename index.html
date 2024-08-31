@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>table</title>
+</head>
+<body>
+    <h1>Table</h1>
+    <div class="box1">
+        <p class="pa">A table is an arrangement of information or data, typically in rows and columns</p>
+        <p class="pb">table is composed with multiple elementes</p>
+    </div>
+
+    <div class="box2">
+        <table class="main-table">
+            <tr class="color1">
+                <td>
+                    <code> &lt;table&gt; &lt;/table&gt; </code>
+                </td>
+                <td>
+                    Main tage
+                </td>
+            </tr>
+
+            <tr class="color2">
+                <td>
+                    <code> &lt;th&gt; &lt;/th&gt;</code>
+                </td>
+                <td>
+                    Table heading
+                </td>
+            </tr>
+
+            <tr class="color1">
+                <td>
+                    <code>&lt;tr&gt; &lt;/tr&gt;</code>
+                </td>
+                <td>
+                    Table row
+                </td>
+            </tr>
+
+            <tr class="color2">
+                <td>
+                    <code>&lt;td&gt; &lt;/td&gt;</code>
+                </td>
+                <td>
+                    Table data
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="box3">
+
+        <div class="container">
+            <h2>Row Span</h2>
+            <p>The  <span>rowspan</span> attribute specifies the number of rows a cell should span. <br> Merge rows </p>
+            <h4>Eg.</h4>
+
+            <table class="rowspan">
+                <tr>
+                    <td>Kuttan</td>
+                    <td>Celin</td>
+                    <td>Total</td>
+                </tr>
+                <tr>
+                    <td>20%</td>
+                    <td>90%</td>
+                    <td rowspan="2"> 70%</td>
+                </tr>
+                <tr>
+                    <td>1 Month</td>
+                    <td>2.5 Year</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="container">
+            <h2>Row Span</h2>
+            <p>The  <span>colspan</span> attribute defines the number of columns a cell should span.. <br> Merge coloms </p>
+            <h4>Eg.</h4>
+
+            <table class="colspan">
+                <tr>
+                    <td>Chinku</td>
+                    <td>Dinku</td>
+                </tr>
+                <tr>
+                    <td>98$</td>
+                    <td>50%</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total 90%</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
